@@ -60,14 +60,14 @@ The `respond_to` method use the path extension to send response and `Content-Typ
 
  Try accessing the following URL's to see it in action: 
  
- `http://localhost:4567`
- `http://localhost:4567/sample`
- `http://localhost:4567/sample.json`
- `http://localhost:4567/sample.xml` `# returns 409 Status Code, cause XML is not allowed`
+ `http://localhost:4567`    
+ `http://localhost:4567/sample`   
+ `http://localhost:4567/sample.json`    
+ `http://localhost:4567/sample.xml` `# returns 409 Status Code, cause XML is not allowed`   
  
-`http://localhost:4567/api/sample`  
-`http://localhost:4567/api/sample.json` 
-`http://localhost:4567/api/sample.xml`
+`http://localhost:4567/api/sample`      
+`http://localhost:4567/api/sample.json`    
+`http://localhost:4567/api/sample.xml`      
 
 enjoy :)
 
